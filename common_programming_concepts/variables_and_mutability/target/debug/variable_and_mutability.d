@@ -1,0 +1,1 @@
+/Users/karimmohamed/RustApps/common_programming_concepts/variables_and_mutability/target/debug/variable_and_mutability: /Users/karimmohamed/RustApps/common_programming_concepts/variables_and_mutability/src/main.rs
