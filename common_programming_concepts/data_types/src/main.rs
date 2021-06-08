@@ -7,4 +7,14 @@ fn main() {
     let y: i8 = -128;
     println!("This is signed variable: {}", y);
     
+
+    // Tuples
+    let tup: (i32, u8, f64) = (-1000, 127, 10.0);
+
+    // Access to the values inside tuple using 1st way
+    let (x,y,z) = tup;
+    println!("X: {}\nY: {}\nZ: {}",x,y,z);
+    
+    // Access to the values inside tuple using 2nd way
+    println!("X: {}\nY: {}\nZ: {}",tup.0,tup.1,tup.2);
 }
